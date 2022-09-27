@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(53, 53, 53, 0.9);
+   
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(7, 0, 49, 0.9);
+}
+
+nav{
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+h1{
+    margin-bottom: 35px;
+    width: 85%;
+    border-bottom: 1px solid #BFBBBB;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h2{
+    width: 100%;
+    font-size: 14px;
+}
+
+h3{
+    font-size: 9px;
+}
+
+.information{
+    height: 100%;
+    width:35%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 7px;
+
+}
+
+.container-coins{
+    border-radius: 10px;
+    width: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+}
+
+.coin-value-container{
+    min-height: 150px;
+    width: 100%;
+    padding: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.selected{
+    background-color: rgba(149, 160, 184, 0.3);
+}
+
+.container-coin-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-information{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+p {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 13px;
+}
+
+.container-menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 19px;
+    width: 100%;
+}
+
+img{
+    height: 80px;
+}
+
+.ETH{
+    background-color: #627EEA;
+}
+
+.BTC{
+    background-color: #F7931A;
+
+}
+
+.LTC{
+    background-color: #BFBBBB;
+}
+
